@@ -164,9 +164,9 @@ doc.line(str4Width, str4height+0.5,(str4Width+doc.getTextWidth(str4[s4]+" ")),  
       uColor=[95, 95, 95],
       x=23,
 
-          string1='The taxes along-with interest & penalty will be recovered / debited / charged to the M/s',
-          string2=billName,
-          string3='Provider account, if the tax charged in their sale nvoices and not properly deposited & reported to the sales tax authorities during the relevant tax period.',
+          string1='If you have used AngularJS before, then you may hate React at first',
+          string2=", mainly because of it’s one-way data flow and lack of ",
+          string3='“framework” where you need to take care of many other things yourself. ',
           string4=''
       ;
 

@@ -149,6 +149,7 @@ doc.line(str4Width, str4height+0.5,(str4Width+doc.getTextWidth(str4[s4]+" ")),  
           }
 
           /*---------------------------------------to sent data ----------------------------------------*/
+  //fnt=text bold/normal ,colr=color of every strig  , un=string contain underline or not (y/n)  , uColor=underline color must be in rgb in array
           var fnt1='normal',
       fnt2='bold',
       fnt3='normal',
@@ -162,13 +163,12 @@ doc.line(str4Width, str4height+0.5,(str4Width+doc.getTextWidth(str4[s4]+" ")),  
       un3='n',
       un4='n',
       uColor=[95, 95, 95],
-      x=23,
+      x=23,y=30,
 
           string1='If you have used AngularJS before, then you may hate React at first',
           string2='mainly because of it’s one-way data flow and lack of',
           string3='“framework” where you need to take care of many other things yourself. ',
-          string4=''
-      ;
+          string4='';
 
    dynaBld(uColor,x,y,doc,fnt1,colr1,string1,un1,fnt2,colr2,string2,un2,fnt3,colr3,string3,un3,fnt4,colr4,string4,un4)
 

@@ -1,5 +1,5 @@
 /*
-1)pest  the function in your jspdf js file 
+1)paste  the function in your jspdf js file 
 2)declare the call function in a autoTable
 
 */

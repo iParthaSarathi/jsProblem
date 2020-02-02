@@ -39,7 +39,7 @@
             for(s1=0;s1<str1.length;s1++){
 if(str1Width>(s1Wordount)){
   str1Width=x;
-  str1height=y+((3.2)*Str1WidthCount); //for count weight
+  str1height=y+((3.2)*Str1WidthCount); //for count width
   Str1WidthCount=Str1WidthCount+1; //
 }
 doc.text(str1[s1]+" ",str1Width,str1height);
@@ -71,7 +71,7 @@ str1Width=str1Width+doc.getTextWidth(str1[s1]+" ")
             for(s2=0;s2<str2.length;s2++){
 if(str2Width>(s2Wordount)){
   str2Width=x;
-  str2height=y+((3.2)*Str2WidthCount); //for count weight
+  str2height=y+((3.2)*Str2WidthCount); //for count width
   Str2WidthCount=Str2WidthCount+1; //
 }
 doc.text(str2[s2]+" ",str2Width,str2height);
@@ -104,7 +104,7 @@ str2Width=str2Width+doc.getTextWidth(str2[s2]+" ")
             for(s3=0;s3<str3.length;s3++){
 if(str3Width>(s3Wordount)){
   str3Width=x;
-  str3height=y+((3.2)*Str3WidthCount); //for count weight
+  str3height=y+((3.2)*Str3WidthCount); //for count width
   Str3WidthCount=Str3WidthCount+1; //
 }
 doc.text(str3[s3]+" ",str3Width,str3height);
@@ -135,7 +135,7 @@ str3Width=str3Width+doc.getTextWidth(str3[s3]+" ")
           for(s4=0;s4<str4.length;s4++){
               if(str4Width>(s4Wordount)){
 str4Width=x;
-str4height=y+((3.2)*Str4WidthCount); //for count weight
+str4height=y+((3.2)*Str4WidthCount); //for count width
 Str4WidthCount=Str4WidthCount+1; //
               }
 
@@ -170,7 +170,7 @@ doc.line(str4Width, str4height+0.5,(str4Width+doc.getTextWidth(str4[s4]+" ")),  
           string3='“framework” where you need to take care of many other things yourself. ',
           string4='';
 
-   dynaBld(uColor,x,y,doc,fnt1,colr1,string1,un1,fnt2,colr2,string2,un2,fnt3,colr3,string3,un3,fnt4,colr4,string4,un4)
+   dynaBld(uColor,x,y,doc,fnt1,colr1,string1,un1,fnt2,colr2,string2,un2,fnt3,colr3,string3,un3,fnt4,colr4,string4,un4);
 
    // use this style for text underline and create bold text or change color
 

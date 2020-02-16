@@ -12,7 +12,7 @@
       /*|'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''|
         | for add more string for complicated use case just  copy the last block of code from start comment to  |
         | end  then increment the variables for all of new created  block   by one(+1)  (str4Width => str5Width)|
-        | then increase the parameter also for sent and recive (keep unchange the first and second block)       |
+        | then increase the parameter also for sent and receive (keep unchange the first and second block)       |
         |,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,|*/
 
     /*------------@@----------block-string 1 placement Creation-----@@---------*/
